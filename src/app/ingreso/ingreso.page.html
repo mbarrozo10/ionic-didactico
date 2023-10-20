@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar >
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+<link href='https://fonts.googleapis.com/css?family=Schoolbell' rel='stylesheet'>
+<ion-content>
+  <ion-grid>
+    <ion-card class="ion-card">
+      <ion-row color="primary" justify-content-center>
+        <ion-col align-self-center size-md="12" size-lg="12" size-xs="12">
+          <div text-center>
+            <h3>Ingresar</h3>
+          </div>
+        
+          <div padding>
+            <img src="../../assets/logo.png" alt="">
+          </div>
+          
+            <div class="botones" >
+              <ion-input aria-label="Primary input" color="secondary" label="Correo" fill="outline"  name="email" type="email" placeholder="your@email.com" [(ngModel)]="usuario" name="usuario"></ion-input>
+              <!-- </ion-item>
+              <ion-item> -->
+                <ion-input aria-label="Primary input" color="primary" label="Contraseña"  fill="outline" name="password" type="password" placeholder="Password" [(ngModel)]="pass" name="pass"></ion-input>
+              <!-- </ion-item> -->
+              <ion-button   type="submit" (click)="login()" expand="block">Ingresar</ion-button>
+              <ion-button  type="submit" (click)="salir()">Salir</ion-button>
+            </div>
+            <div class="chips">
+              <ion-chip color="primary" (click)="Autocompletar('admin@admin.com','111111')" >Admin</ion-chip>
+              <ion-chip color="secondary"(click)="Autocompletar('usuario@usuario.com','333333')">Usuario</ion-chip>
+              <ion-chip color="tertiary" (click)="Autocompletar('invitado@invitado.com','222222')">Invitado</ion-chip>
+              <ion-chip color="success" (click)="Autocompletar('tester@tester.com','555555')">Tester</ion-chip>
+              <ion-chip color="warning" (click)="Autocompletar('anonimo@anonimo.com','444444')">Anonimo</ion-chip>
+            </div>
+          </ion-col>
+      </ion-row>
+
+      
+    </ion-card>
+
+   
+  </ion-grid>
+</ion-content>
+

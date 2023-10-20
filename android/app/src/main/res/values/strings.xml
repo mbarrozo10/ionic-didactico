@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Didactico</string>
+    <string name="title_activity_main">Didactico</string>
+    <string name="package_name">Didactico.ionic.starter</string>
+    <string name="custom_url_scheme">Didactico.ionic.starter</string>
+</resources>

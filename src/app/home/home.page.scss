@@ -1,0 +1,36 @@
+@import "https://fonts.googleapis.com/css?family=Schoolbell";
+
+div{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100%;
+    ion-button{
+        height: 50%;
+        --background: #7c78b8;
+        text-align: justify;
+        font-size: 300%;
+        font-family: schoolbell;
+    }
+    
+}
+
+ion-button{
+    border-radius: 80px;
+}
+ion-toolbar{
+    --background: #5271ff;
+    font-family: schoolbell;}
+
+.temas{
+    div{
+        padding-right: 40px;
+        display: inline-flex;
+        flex-direction: row;
+    justify-content: center;
+    }
+    img, span{
+        height: 40px;
+        font-size: 40px;
+    }
+}

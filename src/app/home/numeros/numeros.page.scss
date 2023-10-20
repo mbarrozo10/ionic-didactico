@@ -1,0 +1,17 @@
+div{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100%;
+    ion-button{
+        height: 50%;
+        --background: #5271ff;
+        text-align: justify;
+        font-size: 300%;
+        font-family: schoolbell;
+        img{
+            height: 100%;
+        }
+    }
+    
+}

@@ -1,0 +1,27 @@
+div{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100%;
+    ion-button{
+        height: 50%;
+        --background: #5271ff;
+        text-align: justify;
+        font-size: 300%;
+        font-family: schoolbell;
+    }
+    
+}
+
+#rojo{
+    --background: #ff6961;
+}
+#verde{
+    --background: #77dd77;
+}#amarillo{
+    --background: #fdfd96;
+}#azul{
+    --background: #84b6f4;
+}#rosa{
+    --background: #fdcae1;
+}

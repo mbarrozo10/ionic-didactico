@@ -1,0 +1,73 @@
+@import "https://fonts.googleapis.com/css?family=Schoolbell";
+
+ion-title, h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: -20px;
+}
+
+img{
+    width: 300px;
+    height: 250px;
+    padding-left: 90px;
+    margin-bottom: -150px;
+}
+ion-button, ion-toolbar{
+    --background: #5271ff;
+    font-family: schoolbell;
+}
+
+ion-button{
+    font-size: 80%;
+}
+
+ion-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ion-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    border-radius: 60px;
+    --background: #7f7bba;
+}
+
+ion-input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: schoolbell;
+}
+ion-title{
+    font-family: schoolbell;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+   margin-top: 70px;   
+   font-size: 30px;
+}
+
+#open-modal{
+    margin-bottom: 10px;
+}
+
+
+
+  .chips{
+    background-color: black !important;
+   display: flex;
+   flex-direction: columns;
+   align-items: center; 
+  }
+
+  h1 { font-family: Schoolbell; font-size: 45px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 45px; } h3 { font-family: Schoolbell; font-size: 44px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 44px; } p { font-family: Schoolbell; font-size: 34px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 17px; } blockquote { font-family: Schoolbell; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 21px; } pre { font-family: Schoolbell; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 13px; }
